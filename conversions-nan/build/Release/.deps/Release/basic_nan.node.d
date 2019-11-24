@@ -1,0 +1,1 @@
+cmd_Release/basic_nan.node := c++ -bundle -undefined dynamic_lookup -Wl,-no_pie -Wl,-search_paths_first -mmacosx-version-min=10.10 -arch x86_64 -L./Release -stdlib=libc++ -L/usr/local/opt/zlib/lib -o Release/basic_nan.node Release/obj.target/basic_nan/cpp/basic_nan.o 

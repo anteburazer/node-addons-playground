@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug rainfall",
+            // "preLaunchTask": "npm: build-dev",
+            "program": "/Users/bura/.nvm/versions/node/v12.4.0/bin/node",
+            "args": [
+                "/Users/bura/Development/node-addons-integration/rainfall/index.js"
+            ]
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug factorization",
+            // "preLaunchTask": "npm: build-dev",
+            "program": "/Users/bura/.nvm/versions/node/v12.4.0/bin/node",
+            "args": [
+                "/Users/bura/Development/node-addons-integration/streaming/factorization/index.js"
+            ]
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug buffers",
+            // "preLaunchTask": "npm: build-dev",
+            "program": "/Users/bura/.nvm/versions/node/v12.4.0/bin/node",
+            "args": [
+                "/Users/bura/Development/node-addons-integration/buffers/png2bmp/index.js"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/bura/.nvm/versions/node/v10.15.3/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js add --save nan
+
+PATH: 
+  /Users/bura/.nvm/versions/node/v10.15.3/bin:/Users/bura/abe.jar:/usr/local/opt/openssl/bin:/usr/local/opt/node@8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/bura/.nvm/versions/node/v10.15.3/bin:/Users/bura/abe.jar:/usr/local/opt/openssl/bin:/usr/local/opt/node@8/bin:/Users/bura/Library/Android/sdk:/Users/bura/Library/Android/sdk/platform-tools:/Users/bura/Library/Android/sdk/tools:/Users/bura/Library/Android/ndk:/Users/bura/Library/Android/sdk:/Users/bura/Library/Android/sdk/platform-tools:/Users/bura/Library/Android/sdk/tools:/Users/bura/Library/Android/ndk:/Users/bura/Library/Android/sdk:/Users/bura/Library/Android/sdk/platform-tools:/Users/bura/Library/Android/sdk/tools
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/bura/Development/node-addons-integration/conversions_nan/package.json: Unexpected token } in JSON at position 412
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.7.0/libexec/lib/cli.js:109:13
+
+npm manifest: 
+  {
+      "name": "basic",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+          "start": "node index.js",
+          "rebuild": "node-gyp rebuild",
+          "build": "node-gyp build",
+          "rebuild-dev": "node-gyp rebuild --debug",
+          "build-dev": "node-gyp build --debug",
+          "clean": "node-gyp clean"
+      },
+      "author": "Ante Burazer",
+      "license": "ISC",
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

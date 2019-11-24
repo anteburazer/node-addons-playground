@@ -1,0 +1,20 @@
+{
+    "name": "basic",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "rebuild": "node-gyp rebuild",
+        "build": "node-gyp build",
+        "rebuild-dev": "node-gyp rebuild --debug",
+        "build-dev": "node-gyp build --debug",
+        "clean": "node-gyp clean",
+        "configure": "node-gyp configure"
+    },
+    "author": "Ante Burazer",
+    "license": "ISC",
+    "dependencies": {
+        "nan": "^2.14.0"
+    }
+}
